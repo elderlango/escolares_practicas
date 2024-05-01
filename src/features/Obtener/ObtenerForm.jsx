@@ -21,7 +21,7 @@ const ObtenerForm = () => {
 
   const handleLogin = async (e) => { 
     e.preventDefault();
-    let endpoint = `http://webservices.mx/escolares/test/alumnos/obtener?alumno_id=${alumno_id}`;
+    let endpoint = `https://webservices.mx/escolares/test/alumnos/obtener?alumno_id=${alumno_id}`;
 
     if (alumno_id==='') setShow(true)
     try {

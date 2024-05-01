@@ -17,7 +17,7 @@ const RegistroForm = () => {
 
   const handleLogin = async (e) => { 
     e.preventDefault();
-    let endpoint = 'http://webservices.mx/escolares/test/alumnos/agregar?alumno_idclave='+ id;
+    let endpoint = 'https://webservices.mx/escolares/test/alumnos/agregar?alumno_idclave='+ id;
 
     if (clave) endpoint += '&clave=' + clave;
     if (matricula) endpoint += '&matricula=' + matricula;

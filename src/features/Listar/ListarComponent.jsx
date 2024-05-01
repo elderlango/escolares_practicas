@@ -13,7 +13,7 @@ const ListarComponent = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://webservices.mx/escolares/test/alumnos/listar');
+        const response = await fetch('https://webservices.mx/escolares/test/alumnos/listar');
         const data = await response.json();
         const metaCode = data.response;
 
